@@ -1,0 +1,74 @@
+/*  */
+/*  */
+/*  */
+/* GLOBAL */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+
+/* UTILITY */
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 1000px;
+  margin: auto;
+  border: black 1px solid;
+}
+
+.btn {
+  display: inline-block;
+  padding: 5px;
+  width: 80px;
+  text-align: center;
+  background: rgb(155, 155, 155);
+  height: 30px;
+  color: white;
+}
+
+.btn:hover {
+  background: rgb(75, 75, 75);
+}
+
+.btn:active {
+  background: rgb(34, 34, 34);
+}
+
+/* NAVBAR */
+
+.navbar ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  background-color: rgb(155, 155, 155);
+  height: 50px;
+}
+
+.navbar ul .btn {
+  height: 100%;
+  padding: 10px;
+}
+
+/* LOGO */
+
+#logo {
+  padding: 15px;
+  background: rgb(182, 182, 182);
+  color: white;
+  height: 70px;
+}
