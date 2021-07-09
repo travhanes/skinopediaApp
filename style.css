@@ -89,3 +89,26 @@ a {
   outline: none;
   border: rgb(75, 75, 75) 3px solid;
 }
+
+/* SHOWCASE */
+
+.showcase {
+  display: flex;
+  flex-direction: row;
+}
+
+.showcase .left {
+  background: red;
+  height: 500px;
+  width: 30%;
+}
+.showcase .center {
+  background: blue;
+  height: 500px;
+  width: 40%;
+}
+.showcase .right {
+  background: green;
+  height: 500px;
+  width: 30%;
+}
